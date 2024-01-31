@@ -29,7 +29,9 @@
                                         <td>{{ $item->is_active == 1 ? 'Active' : 'Not Active' }}</td>
                                         <td>
                                             <a href="{{ url('categories/'.$item->id.'/edit') }}" class="btn btn-success">Edit</a>
-                                            <a href="{{ url('categories/'.$item->id.'/delete') }}" class="btn btn-danger">Delete</a>
+                                            <a href="{{ url('categories/'.$item->id.'/delete') }}" class="btn btn-danger"
+                                                onclick="return confirm('Are you sure?')"
+                                                >Delete</a>
                                         </td>
                                     </tr>
                                 @endforeach
