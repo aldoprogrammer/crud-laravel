@@ -18,3 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('categories', [\App\Http\Controllers\CategoryController::class, 'index']);
+Route::get('categories/create', [\App\Http\Controllers\CategoryController::class, 'create']);
+Route::post('categories', [\App\Http\Controllers\CategoryController::class, 'store']);
+
+

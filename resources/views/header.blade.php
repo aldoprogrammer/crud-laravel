@@ -13,7 +13,7 @@
     </head>
     <body class="antialiased">
        <nav class="d-flex items-content-center justify-content-between
-       bg-success p-3">
+       bg-success p-3 mb-10">
         <h2>Logo</h2>
         <div>
             <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
